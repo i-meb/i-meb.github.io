@@ -1,0 +1,12 @@
+# Outputs not represented in ORCID can be added here.
+# Use stable IDs beginning with "manual:".
+# Example:
+# - id: "manual:metastability-aq"
+#   title: "Metastability in EEG phase synchronization networks is associated with autistic traits"
+#   year: 2026
+#   type: "Manuscript"
+#   status: "In preparation"
+#   authors: "Mebuki Izumiya, ..."
+#   venue: ""
+#   url: ""
+[]

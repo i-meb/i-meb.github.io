@@ -1,0 +1,4 @@
+# Key by normalized DOI (preferred) or "orcid:<put-code>".
+# Supported override fields include title, year, type, status, authors,
+# venue, url, doi_url, selected, and exclude.
+{}
