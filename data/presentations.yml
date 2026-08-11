@@ -1,0 +1,10 @@
+# Add only presentations you want publicly listed.
+# Exact titles, dates, and conference names should be copied from the formal CV.
+# Example schema:
+# - title: "Exact presentation title"
+#   event: "OHBM 2026"
+#   year: 2026
+#   type: "Poster"
+#   location: "Lisbon, Portugal"
+#   url: ""
+[]
