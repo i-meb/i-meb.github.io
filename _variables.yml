@@ -1,5 +1,5 @@
 name: "Mebuki Izumiya"
-name_ja: "泉谷 芽吹"
+name_ja: "泉谷 芽生"
 role: "Ph.D. Candidate in Computational Neuroscience"
 affiliation: "National Institute for Physiological Sciences / SOKENDAI"
 location: "Okazaki, Aichi, Japan"
@@ -11,6 +11,6 @@ orcid:
 github:
   profile: "https://github.com/i-meb"
   eeg_metastability: "https://github.com/i-meb/EEG-Metastability"
-researchmap: ""
-google_scholar: ""
-linkedin: ""
+researchmap: "https://researchmap.jp/mebuki_izumiya"
+# google_scholar: ""
+# linkedin: ""
