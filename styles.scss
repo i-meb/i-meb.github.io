@@ -1,0 +1,154 @@
+/*-- scss:defaults --*/
+$body-bg: #fcfcfa;
+$body-color: #1f2529;
+$link-color: #315b62;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 600;
+$navbar-bg: #fcfcfa;
+$navbar-fg: #1f2529;
+$footer-bg: #fcfcfa;
+
+/*-- scss:rules --*/
+:root {
+  --muted: #68727a;
+  --line: #dfe3e5;
+  --soft: #f3f5f4;
+  --accent: #315b62;
+}
+
+body {
+  letter-spacing: 0.002em;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--line);
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+#quarto-content {
+  max-width: 1080px;
+  margin-inline: auto;
+}
+
+main.content {
+  max-width: 860px;
+}
+
+.hero {
+  max-width: 1080px;
+  margin: 4.5rem auto 3.5rem;
+  padding: 0 1rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.7rem, 7vw, 5.8rem);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+  margin: 0.35rem 0 1.25rem;
+}
+
+.hero p {
+  max-width: 760px;
+  font-size: 1.12rem;
+  line-height: 1.75;
+}
+
+.hero-kicker {
+  color: var(--accent);
+  font-size: 0.77rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem;
+  max-width: 1080px;
+  margin: 0 auto 4rem;
+  padding: 0 1rem;
+}
+
+.home-block {
+  border-top: 1px solid var(--line);
+  padding-top: 1.4rem;
+}
+
+.home-block h2 {
+  font-size: 1.35rem;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  margin-top: 2.8rem;
+}
+
+p, li {
+  line-height: 1.72;
+}
+
+.quarto-listing-container-default {
+  margin-top: 1.5rem;
+}
+
+.pub-list, .presentation-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.pub-item, .presentation-item {
+  padding: 1.1rem 0 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.pub-title, .presentation-title {
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.pub-meta, .presentation-meta,
+.pub-authors, .pub-venue {
+  color: var(--muted);
+  font-size: 0.94rem;
+  margin-top: 0.25rem;
+}
+
+.pub-links a, .presentation-links a {
+  margin-right: 0.9rem;
+  font-size: 0.9rem;
+}
+
+.badge-soft {
+  display: inline-block;
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.76rem;
+  color: var(--muted);
+}
+
+.page-footer {
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 780px) {
+  .hero {
+    margin-top: 2.8rem;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+  }
+}

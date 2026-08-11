@@ -1,0 +1,16 @@
+name: "Mebuki Izumiya"
+name_ja: "泉谷 芽吹"
+role: "Ph.D. Candidate in Computational Neuroscience"
+affiliation: "National Institute for Physiological Sciences / SOKENDAI"
+location: "Okazaki, Aichi, Japan"
+email_display: "mebuki [at] nips.ac.jp"
+email_href: "mailto:mebuki@nips.ac.jp"
+orcid:
+  id: "0000-0003-1566-5059"
+  url: "https://orcid.org/0000-0003-1566-5059"
+github:
+  profile: "https://github.com/i-meb"
+  eeg_metastability: "https://github.com/i-meb/EEG-Metastability"
+researchmap: ""
+google_scholar: ""
+linkedin: ""

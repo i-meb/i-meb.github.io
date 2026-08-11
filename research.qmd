@@ -1,0 +1,33 @@
+---
+title: "Research"
+description: "Research themes in EEG metastability, phase synchronization, and brain-state dynamics."
+---
+
+My research asks how transient coordination among distributed neural populations gives rise to stable yet flexible brain function. Rather than treating connectivity as static, I focus on the **temporal organization of synchronization states**.
+
+## 1. Metastability of EEG phase-synchronization networks
+
+I quantify time-varying coordination in resting-state EEG using two complementary measures:
+
+- **Metastability Index (MSI):** temporal variability of global phase synchronization.
+- **Synchrony Coalition Entropy (SCE):** diversity of local synchronization-partner configurations over time.
+
+A central goal is to determine whether these dynamic properties capture reproducible individual differences that are not visible in static connectivity measures alone.
+
+## 2. State-space structure of synchronization dynamics
+
+Binary phase-difference networks can be represented as high-dimensional brain states. I use dimensionality-reduction and state-modeling approaches to characterize their geometry, recurrence, transitions, and subject specificity.
+
+Current methods include PCA, NMF, ICA, UMAP, k-means, HDBSCAN, and discrete-state HMMs. A particular emphasis is placed on balancing nonlinear representation power with interpretability in the original electrode-pair space.
+
+## 3. Metastability and learning-related brain dynamics
+
+An ongoing research direction is to test whether pre-task and task-related metastable dynamics predict individual differences in motor learning. The working hypothesis is that flexible switching among synchronization states may index the capacity to adapt neural coordination during skill acquisition.
+
+## Methodological principles
+
+1. Preserve temporal information rather than reducing EEG to static averages too early.
+2. Separate global synchrony variability from local coalition diversity.
+3. Use frequency- and spatially resolved statistics with appropriate multiple-comparison control.
+4. Prefer interpretable decompositions when mechanistic localization is important.
+5. Treat exploratory state-space analyses as distinct from confirmatory inference.

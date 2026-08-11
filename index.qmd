@@ -1,0 +1,47 @@
+---
+title: "Mebuki Izumiya"
+title-block-style: none
+page-layout: full
+---
+
+::: {.hero}
+::: {.hero-kicker}
+COMPUTATIONAL NEUROSCIENCE · EEG · DYNAMIC BRAIN NETWORKS
+:::
+
+# {{< var name >}}
+
+**{{< var role >}}**  
+{{< var affiliation >}}
+
+I study how large-scale brain networks reorganize over time, with a focus on **EEG phase synchronization**, **metastability**, and **individual differences in cognition**. My work combines signal processing, network dynamics, dimensionality reduction, and statistical modeling.
+
+[Research](research.qmd){.btn .btn-primary} [Publications](publications.qmd){.btn .btn-outline-secondary} [CV](cv.qmd){.btn .btn-outline-secondary}
+:::
+
+::: {.home-grid}
+::: {.home-block}
+## Research focus
+
+**Metastable brain dynamics**  
+Quantifying temporal variability and diversity of EEG synchronization networks using MSI and SCE.
+
+**Brain-state representations**  
+Characterizing high-dimensional phase-synchronization patterns with interpretable and nonlinear state-space methods.
+
+**Individual differences**  
+Relating dynamic network properties to cognitive traits and learning-related behavior.
+:::
+
+::: {.home-block}
+## Methods
+
+EEG preprocessing · complex Morlet wavelets · CSD · phase synchronization · network analysis · permutation statistics · PCA · NMF · ICA · UMAP · clustering · HMM
+
+## Open science
+
+I develop reusable MATLAB analysis code for EEG metastability and phase-synchronization dynamics.
+
+[EEG-Metastability on GitHub →]({{< var github.eeg_metastability >}})
+:::
+:::

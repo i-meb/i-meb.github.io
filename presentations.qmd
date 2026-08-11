@@ -1,0 +1,17 @@
+---
+title: "Presentations"
+description: "Selected conference presentations and academic talks."
+listing:
+  contents:
+    - data/presentations.yml
+  template: templates/presentation.ejs.md
+  sort: "year desc"
+  sort-ui: false
+  filter-ui: true
+  page-size: 50
+  field-types:
+    year: number
+  field-required: [title, event, year, type]
+---
+
+Conference presentations are maintained locally because ORCID coverage for talks and posters is not used as the authoritative source for this site.

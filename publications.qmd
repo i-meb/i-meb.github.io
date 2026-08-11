@@ -1,0 +1,17 @@
+---
+title: "Publications"
+description: "Research outputs synchronized from ORCID with local overrides."
+listing:
+  contents:
+    - generated/publications.yml
+  template: templates/publication.ejs.md
+  sort: "year desc"
+  sort-ui: false
+  filter-ui: false
+  page-size: 50
+  field-types:
+    year: number
+  field-required: [title, year, type]
+---
+
+Published works are synchronized from ORCID. Local metadata is used only for corrections, display preferences, and outputs not yet represented in ORCID.

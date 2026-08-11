@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Mebuki Izumiya"
+  site-url: "https://i-meb.github.io"
+  description: "Computational neuroscience, EEG dynamics, metastability, and phase synchronization."
+  favicon: assets/img/favicon.svg
+  search: false
+  open-graph: true
+  twitter-card: true
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: presentations.qmd
+        text: Presentations
+      - href: software.qmd
+        text: Software
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/i-meb
+        aria-label: GitHub
+      - text: ORCID
+        href: https://orcid.org/0000-0003-1566-5059
+  page-footer:
+    left: "© Mebuki Izumiya"
+    right:
+      - text: ORCID
+        href: https://orcid.org/0000-0003-1566-5059
+      - text: GitHub
+        href: https://github.com/i-meb
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-copy: true
+
+execute:
+  freeze: auto

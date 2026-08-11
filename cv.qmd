@@ -1,0 +1,53 @@
+---
+title: "Curriculum Vitae"
+description: "Curriculum vitae of Mebuki Izumiya."
+---
+
+## Mebuki Izumiya
+
+**Ph.D. Candidate, Computational Neuroscience**  
+National Institute for Physiological Sciences / SOKENDAI  
+Okazaki, Aichi, Japan
+
+[ORCID]({{< var orcid.url >}}) · [GitHub]({{< var github.profile >}}) · [Email]({{< var email_href >}})
+
+## Research profile
+
+Computational and cognitive neuroscience researcher studying the temporal dynamics of EEG phase-synchronization networks. Primary interests include metastability, individual differences, brain-state representations, and interpretable analysis of high-dimensional neural dynamics.
+
+## Education
+
+**Ph.D. Candidate — SOKENDAI, School of Life Science / Physiological Sciences**  
+National Institute for Physiological Sciences  
+Expected 2027
+
+<!-- TODO: Add exact Master's and Bachelor's degree names, institutions, and dates. -->
+
+## Research experience
+
+**National Institute for Physiological Sciences**  
+Research on EEG phase-synchronization dynamics, metastability, individual differences, and computational analysis of brain states.
+
+## Research methods
+
+EEG preprocessing; CSD; ICA; complex Morlet wavelets; phase synchronization; MSI; SCE; network dynamics; PCA; NMF; ICA; UMAP; clustering; HMM; permutation statistics; ICC; nonlinear regression.
+
+## Programming and research tools
+
+MATLAB · Python · EEGLAB · FieldTrip · Git/GitHub · LaTeX
+
+## Open-source software
+
+**EEG-Metastability** — MATLAB research code for computing metastability-related measures from EEG phase-synchronization networks.  
+[Repository]({{< var github.eeg_metastability >}})
+
+## Publications and presentations
+
+See the dedicated [Publications](publications.qmd) and [Presentations](presentations.qmd) pages for the maintained lists.
+
+## Academic service and outreach
+
+- Educational and tutoring activities at NIPS.
+- Organizing and outreach experience including interdisciplinary research events and student activities.
+
+<!-- TODO: Replace the two broad items above with exact role names and dates from the formal CV. -->

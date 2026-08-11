@@ -1,0 +1,32 @@
+---
+title: "Software"
+description: "Research software and reproducible analysis tools."
+---
+
+## EEG-Metastability
+
+**MATLAB code for quantifying metastability-related dynamics in EEG phase-synchronization networks.**
+
+The project is designed around transparent, reproducible computation of frequency-specific synchronization dynamics, including MSI and SCE. The repository is intended for research use and methodological inspection rather than as a black-box application.
+
+**Core methods**  
+EEG · phase synchronization · complex wavelet analysis · CSD · MSI · SCE · network dynamics
+
+[GitHub repository →]({{< var github.eeg_metastability >}})
+
+## Analysis stack
+
+**Neurophysiology**  
+EEG, resting-state EEG, cognitive-task EEG
+
+**Signal processing**  
+EEGLAB, ICA, ICLabel, CSD, complex Morlet/Gabor wavelets, Hilbert analysis, phase synchronization
+
+**Computational analysis**  
+PCA, NMF, ICA, UMAP, k-means, HDBSCAN, HMM, recurrence and transition analysis
+
+**Statistics**  
+Spearman correlation, ICC, nonlinear regression, permutation tests, cluster-based multiple-comparison correction
+
+**Programming**  
+MATLAB, Python, Git/GitHub, LaTeX, reproducible analysis pipelines
